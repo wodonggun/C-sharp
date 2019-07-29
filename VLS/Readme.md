@@ -14,3 +14,14 @@
 
 # checked Unchecked 
 
+
+
+
+# 
+
+public - 
+
+private
+protected
+internal - 서로다른 어셈블리에서는 접근 불가능
+protected internal - 
