@@ -17,3 +17,9 @@ camelCasing
 - float - 4바이트 실수
 - double - 8바이트 실수
 -
+
+
+# String Format
+- 포매팅 형식으로 스트링을 만들 수 있음.  
+string `message`= string.Format("Name : {0}     Student ID : {1}", name, id);
+`Console.WriteLine`(string.Format("Name : {0}     Student ID : {1}", name, id));
