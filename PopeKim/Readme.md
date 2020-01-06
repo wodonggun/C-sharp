@@ -20,6 +20,10 @@ camelCasing
 
 
 # String Format
-- 포매팅 형식으로 스트링을 만들 수 있음.  
-string `message`= string.Format("Name : {0}     Student ID : {1}", name, id);
-`Console.WriteLine`(string.Format("Name : {0}     Student ID : {1}", name, id));
+> 포매팅 형식으로 스트링을 만들 수 있음.  
+- string `message`= string.Format("Name : {0}     Student ID : {1}", name, id);  
+- `Console.WriteLine`(string.Format("Name : {0}     Student ID : {1}", name, id));  
+
+
+- `( {0,10}  {1,15} , name, id )` : 10칸을 배정받고, 우측정렬 / 15칸을 배정받고, 우측 정렬  
+- `( {0,-6}  {1,15} , name, id )` : 6칸을 배정받고, 좌측정렬 / 15칸을 배정받고, 우측 정렬  
